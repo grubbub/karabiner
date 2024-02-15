@@ -1,0 +1,44 @@
+{
+    "description": "mouse redirects",
+    "manipulators": [
+        {
+            "from": {
+                "pointing_button": "button3"
+            },
+            "to": [
+                {
+                    "key_code": "v",
+                    "modifiers": [
+                        "left_command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "pointing_button": "button5"
+            },
+            "to": [
+                {
+                    "key_code": "c",
+                    "modifiers": [
+                        "left_command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "pointing_button": "button4"
+            },
+            "to": [
+                {
+                    "key_code": "return_or_enter"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
